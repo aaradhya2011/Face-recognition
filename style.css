@@ -1,0 +1,15 @@
+body
+{
+background-color: pink;
+color: white;
+}
+.name_of_objects
+{
+    color: yellow;
+}
+#camera
+{
+    border: 2px dashed black;
+    height: 300px;
+    width: 350px;
+}
