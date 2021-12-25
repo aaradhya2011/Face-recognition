@@ -7,7 +7,7 @@ Webcam.set({
 
 camera = document.getElementById("camera");
 
-Webcam.attach( '#camera' );
+Webcam.attach('#camera');
 
 function take_snapshot()
 {
@@ -17,7 +17,7 @@ function take_snapshot()
 }
 
 console.log('ml5  version:', ml5.version);
-classifier =ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/1XoXLb-NX/model.json',modelLoaded);
+classifier =ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/vB1x08Jps/model.json',modelLoaded);
 
 function modelLoaded()
 {
